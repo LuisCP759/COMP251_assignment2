@@ -1,20 +1,15 @@
 # Assignment 2 - Database Design Process from start to finish using MySQL Workbench
 This assignment will meet the following objectives:
 
-**Course Objectives:**
-1. Organize data in ways to emphasize relationships 
+The database will simulate how a Security Operations Center (SOC) manages security alerts, assigns analysts, investigates incidents, and tracks incident response.
+Entity	Purpose
+ANALYST	Manages cybersecurity analysts
+DEVICE	Tracks monitored endpoints and servers
+ALERT	Records detected security threats
+INCIDENT	Tracks security investigations
+INCIDENT_ALERT	Connects alerts to incidents (associative entity)
 
-2. Perform CRUD operations from both relational and NoSQL databases 
-
-**Weekly Objectives:**
-
-1.  Create advanced SQL queries that make use of the JOIN and HAVE clause
- 
-
-## Instructions
-For this assignment, you will decide on a problem domain and create a database of your choosing.  This assignment will require you to document business rules and generate a database from the business rules
-
-
+We'll build each deliverable around the same business rules so that your README, MySQL Workbench diagram, and SQL queries are consistent.
 
 
 ## Requirements
